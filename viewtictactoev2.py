@@ -46,7 +46,7 @@ while True:
     if janela['1'].get() == valor and janela['5'].get() == valor and janela['9'].get() == valor:
         print('Jogador 1 Ganhou'if jogador == 1  else 'Jogador 2 Ganhou')
         break
-    if janela['3'].get() == valor and janela['5'].get() == valor and janela['1'].get() == valor:
+    if janela['3'].get() == valor and janela['5'].get() == valor and janela['7'].get() == valor:
         print('Jogador 1 Ganhou'if jogador == 1  else 'Jogador 2 Ganhou')
         break
     if jogador == 2:
